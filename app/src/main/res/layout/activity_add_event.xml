@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.auribises.lifelinehelp.ui.AddEventActivity">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEventName"
+            android:hint="Enter Name of Event"
+            android:layout_marginTop="10dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEventNameOfNGO"
+            android:hint="Enter Name of NGO"
+            android:layout_marginTop="10dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEventTopic"
+            android:hint="Enter Event Topic"
+            android:layout_marginTop="10dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEventPlace"
+            android:hint="Enter Event Place"
+            android:layout_marginTop="10dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:text="Select Date"
+        android:background="@drawable/mybutton2"
+        android:id="@+id/buttonSelectDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="40dp"
+            android:text="From Timing"
+            android:background="@drawable/mybutton2"
+            android:id="@+id/buttonFromTiming"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="40dp"
+            android:text="To Timing"
+            android:background="@drawable/mybutton2"
+            android:id="@+id/buttonToTiming"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:layout_height="40dp"
+        android:text="Submit Event"
+        android:background="@drawable/mybutton2"
+        android:id="@+id/buttonEventSubmit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+</LinearLayout>
